@@ -1,0 +1,7 @@
+class schoolSubject:
+    def __init__(self, value):
+        self.value = value
+
+x = [schoolSubject(1), schoolSubject(2), schoolSubject(3)]
+
+print (x[2].value)

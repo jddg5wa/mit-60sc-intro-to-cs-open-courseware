@@ -1,0 +1,16 @@
+Your algorithms should be plain English explanations for the steps your program will take to solve these problems.
+
+Write out your algorithm for Problem 2 here:
+    **1.** Decode the encrypted text with possible shift number, starting at 0 and adding one until max, 27, each time this step is run. If shift number is 27 move to step 6.
+    **2.** Check how many valid words there are when each shift number is tested
+    starting at lease amount of valid words, 0
+    **3.** Is new amount of valid words greater than previous amount?
+    **4.** if yes then save the new amount of valid words and save the current shift number. 
+    **5.** Go back to step one and move onto next possible shift number.
+    **6.** Return shift number associated with max valid words.
+
+Write out your algorithm for Problem 4 here:
+    **1.** Check if text from ***'START'*** to end is encrypted. If text is not encoded then stop decoding. 
+    **2.** If text is encoded then find out how much text is encoded vs decoded.
+    **3.** Find best shift for encrypted text.
+    **4.** Find best shifts for text. 
